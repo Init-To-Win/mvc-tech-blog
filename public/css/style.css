@@ -1,0 +1,133 @@
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 200%;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 160%;
+  text-align: center;
+  padding: 1rem;
+}
+
+h4 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: medium;
+  text-align: center;
+  padding: 1rem;
+  color: black;
+}
+
+h5,
+p {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 110%;
+  text-align: center;
+  padding: 2rem;
+}
+
+.site-width {
+  width: 90%;
+}
+
+.card {
+  margin: 1rem;
+}
+
+.description {
+  padding: 0 1rem 0 1rem;
+}
+
+#description {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: medium;
+}
+
+.random-records {
+  align-items: center;
+  width: 100%;
+}
+
+.searchbars {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.searchfield {
+  margin-top: 10px;
+}
+
+.double-form {
+  /* background-color: red; */
+  margin-top: 20px;
+  padding: 1rem;
+}
+
+#add-post-button,
+#login-button,
+#signup-button,
+label {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 110%;
+  text-decoration: none;
+  padding: 0.25rem;
+}
+
+input {
+  width: 100%;
+}
+
+.login-form-centered {
+  display: flex;
+  justify-content: center;
+}
+
+#add-post-button,
+#login-button,
+#signup-button {
+  margin: 1rem;
+  width: 10rem;
+}
+
+@media (min-width: 768px) {
+  .site-width {
+    width: 80%;
+  }
+  label {
+    width: 15%;
+  }
+  input {
+    width: 84%;
+  }
+  h1 {
+    font-size: 300%;
+  }
+}
+
+@media (min-width: 992px) {
+  .site-width {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .site-width {
+    width: 60%;
+  }
+}
